@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>ecommerce-product-page-main-job</title>
+</head>
+<body>
+    
+    <!-- this is the header section -->
+
+    <header>
+        <div class="container">
+            <div class="header-section">
+                <div class="menu">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+                <div class="logo"><img class="header-logo" src="images/logo.svg"></div>
+                <ul class="nav">
+                    <li><a href="">Collections</a></li>
+                    <li><a href="">Men</a></li>
+                    <li><a href="">Women</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Contact</a></li>
+                </ul>
+                <div class="header-left">
+                    <div class="cart">
+                        <img id="cartImg" src="images/icon-cart.svg">
+                        <div class="cart-count-div"><p id="cart-count">0</p></div>
+                        <div class="cart-menu">
+                            <div class="cart-head"><h3>Cart</h3></div>
+                            <div class="cart-body">Your cart is empty.</div>
+                        </div>
+                    </div>
+                    <div class="profile"><img src="images/image-avatar.png"></div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- this is the hero section -->
+
+    <section class="hero-section">
+        <div class="wrapper">
+            <div class="hero-section-content">
+                <div class="hero-left">
+                    <div class="hero-left-top">
+                        <img src="images/image-product-1.jpg" class="mySlides" alt="">
+                        <img src="images/image-product-2.jpg" class="mySlides"  alt="">
+                        <img src="images/image-product-3.jpg" class="mySlides"  alt="">
+                        <img src="images/image-product-4.jpg" class="mySlides"  alt="">
+                    </div>
+                    <a class="prev" onclick="plusSlides(-1)">&#10094</a>
+                    <a class="next" onclick="plusSlides(1)">&#10095</a>
+                    <div class="hero-left-bottom row">
+                        <div class="select column"><img src="images/image-product-1-thumbnail.jpg" onclick="currentSlide(1)" ></div>
+                        <div class="select column"><img src="images/image-product-2-thumbnail.jpg" onclick="currentSlide(2)"></div>
+                        <div class="select column"><img src="images/image-product-3-thumbnail.jpg"onclick="currentSlide(3)" ></div>
+                        <div class="select column"><img src="images/image-product-4-thumbnail.jpg" onclick="currentSlide(4)"></div>
+                    </div>
+                </div>
+                <div class="hero-right">
+                    <div class="hero-right-content">
+                        <p class="company-name">sneaker company</p>
+                        <h1>fall limited edition sneakers</h1>
+                        <p class="copy">These low-profile sneakers are your perfect casual wear companion. Featuring a durable rubber outer sole, they'll withstand everthing in the weather can offer.</p>
+                             <div class="prices">
+                                 <div class="price">
+                                     <h2>$125.00</h2>
+                                     <h3 class="off">50%</h3>
+                                 </div>
+                                 <p class="old-price">$250.00</p>
+                             </div>
+                        <div class="purchase">
+                            <div class="count">
+                                <span class="minus">-</span>
+                                <span class="num">1</span>
+                                <span class="add">+</span>
+                            </div>
+                            <div class="add-to-cart">
+                                <img src="images/icon-cart-white.svg">
+                                <p>Add to cart</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="main.js"></script>
+</body>
+</html>
